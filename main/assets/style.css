@@ -1,0 +1,145 @@
+✅ /* Universal Selector */
+* {
+      margin:0;
+      padding:0;  
+    }
+    
+    ✅ /* Element Selectors */
+    body {
+      position: relative;
+      font-family: "Goudy Bookletter 1911", sans-serif;
+      font-size: 20px;
+      background-color: #FDF8F5;
+      color: #4F4846;
+    }
+    
+    h1,
+    h2 {
+      margin: 20px;
+    }
+    
+    main {
+      padding: 60px 0;
+      /* margin: 10px; */
+      /* display: grid; */
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    header ul li {
+      display: inline;
+      padding: 0px 20px;
+      text-decoration: none;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #FDF8F5;
+    }
+    
+    header {
+      height: 60px;
+      width: 96%;   /* Why does the header overflow beyond the viewport? */
+      line-height: 60px;
+      background-color: #266150;
+      position: fixed;
+      border: 2px solid black;
+    }
+    
+    footer {
+      height: 60px;
+      width: 96%;
+      line-height: 60px;
+      background-color: #266150;
+      position:absolute;
+      margin-top: 0;
+      bottom: 0;
+      border: 10px solid #4F4846;
+      color: #FDF8F5;  
+    }
+    
+    section {
+      margin-bottom: 0;
+      padding: 20px 10px 40px 10px;
+      border: 3px solid red;
+      background-color:  tan;
+      /* justify-content: center; */
+      /* align-items: center; */
+    }
+
+    figure {
+      border: 3px solid orange;
+      width: 50%;
+      background-color: greenyellow;
+      margin-bottom: 40px;
+      /* display:grid; */
+      /* justify-content: center; */
+      /* align-items: center; */
+    
+    }
+    .figCap {
+      text-align: center;
+    }
+    
+    img {
+      width: 20%;
+      /* padding-top: 10px; */
+      display: block;
+      margin: 20px auto;
+       /* justify-content: center;  */
+       /* align-items: center; */
+    }
+    
+    ✅/* Center the form on the page */
+    
+    form {
+      margin: 0 auto;
+      width: 500px;
+      padding: 10px;
+      /* border: 5px solid black; */
+      /* border-radius: 20px; */
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* align-items: center; */
+    }
+    ul li {
+      display: flex; 
+      flex-direction: column;
+       align-items: center;
+      
+    }
+    
+    label {
+      display: inline-block;
+      width: 100px;
+    }
+      
+    input, 
+    textarea {
+      box-sizing: border-box;
+      width: 300px;
+      border: 3px solid #4F4846;
+    }
+    
+    /* textarea {
+      vertical-align: top;
+      height: 60px;
+    }
+       */
+    button {
+      height: 40px;
+      width: 120px;
+      background-color: #4F4846;
+      color: #FDF8F5;
+    }
+     
+    /* Class Selectors */
+    .text-center {
+      text-align: center;
+    }
+    
+    .text-right {
+      text-align: right;
+    }
+    
